@@ -1,0 +1,61 @@
+ .display-card{
+    width: 100%;
+    padding: 10px;
+ }
+
+ .responsive{
+    background-color: #ebebeb;
+ }
+
+ .responsive:hover{
+    transform: scale(1.1); 
+ }
+  
+  
+  .users__list-item:nth-of-type(odd) {
+   
+    background: linear-gradient(#c5fdb7,  #ffee);
+    color: #5a5757;
+  }
+  
+  .users__list-item:nth-of-type(even) {
+    background: linear-gradient(#c5fdb7,  #ffee);
+    color:#5a5757 ;
+  
+  }
+  
+  .users__list-item:hover {
+    outline: 1px solid #fff;
+    box-shadow: 1px  #000;
+    color: #fff;
+    
+    transform: scale(1.01); 
+  }
+  
+  .users__list-item-name {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 2rem;
+    flex: 1;
+  }
+
+  .users__list-item-price{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .users__list-item-price:hover{
+    color: rgb(92, 91, 91);
+  }
+
+  .description{
+    display: block;
+    flex-direction: column;
+    justify-content:center;
+   
+  }
+
+  
+  

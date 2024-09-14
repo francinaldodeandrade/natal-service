@@ -1,6 +1,10 @@
 import React from "react";
 import "../../styles/stylesFormCadUser.css";
-import "../../scripts/formcadUser.js";
+//import "../../scripts/formcadUser.js";
+
+import { CiLight } from "react-icons/ci";
+import { CiDark } from "react-icons/ci";
+import { IoCartOutline } from "react-icons/io5";
 
 // import "../../scripts/scriptsTab.js";
 // import "../../styles/styleTest.css";
@@ -102,6 +106,9 @@ export default function FormCadUsers() {
 
           <div className="infos">
             <h2>Dados Pessoais</h2>
+            <button>
+              <CiLight />
+            </button>
             <p className="content-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
               excepturi corrupti tempora hic ex mollitia quos, quaerat ad
@@ -116,6 +123,9 @@ export default function FormCadUsers() {
 
           <div className="infos">
             <h2>Endereço</h2>
+            <button>
+              <CiDark />
+            </button>
             <p className="content-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
               excepturi corrupti tempora hic ex mollitia quos, quaerat ad
@@ -130,6 +140,9 @@ export default function FormCadUsers() {
 
           <div className="infos">
             <h2>Serviço</h2>
+            <button>
+              <IoCartOutline />
+            </button>
             <p className="content-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
               excepturi corrupti tempora hic ex mollitia quos, quaerat ad
